@@ -28,10 +28,11 @@ app.post('/wfpost', (req, res)=>{
       },
       body: JSON.stringify({
         "ID": 1,
-        "productName": value.productName,
-        "productCost": value.productCost,
-        "productCount": value.productCount,
-        "approvalStatus": value.Decision //"Approvedhappy"
+        "VBELN": value.VBELN,
+        "VKORG": value.VKORG,
+        "SPRAT": value.SPRAT,
+        "AUDAT": value.AUDAT,
+        "VTWEG": value.VTWEG //"Approvedhappy"
       })
     
     };
